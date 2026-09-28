@@ -1,24 +1,196 @@
-This is free and unencumbered software released into the public domain.
+# ATC END-USER LICENSE AGREEMENT (EULA)
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+## Untuk Perangkat Lunak dan Komponen Proprietary ATC – Aksa Torque Control
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+**Copyright © 2026 Aksa Torque Control / pengembang ATC. Hak cipta dilindungi untuk komponen ATC yang merupakan karya asli pengembang.**
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
 
-For more information, please refer to <https://unlicense.org>
+Dengan mengunduh, memasang, mengaktifkan, atau menggunakan komponen proprietary ATC, Anda menyetujui ketentuan berikut.
+
+---
+
+## 1. RUANG LINGKUP
+
+EULA ini berlaku terhadap komponen proprietary ATC, termasuk sejauh relevan:
+
+- ATC Control Center
+- sistem aktivasi dan lisensi ATC
+- layanan/protokol lisensi ATC
+- aset ATC
+- dokumentasi proprietary ATC
+- utilitas ATC
+- bagian firmware ATC yang merupakan karya asli pengembang dan tidak berada di bawah lisensi open-source lain
+
+EULA ini **tidak menggantikan, membatasi, atau menghapus hak** yang diberikan oleh lisensi open-source yang berlaku terhadap komponen pihak ketiga.
+
+---
+
+## 2. PEMBERIAN LISENSI
+
+Pengguna diberikan lisensi yang terbatas, non-eksklusif, tidak dapat dipindahtangankan, untuk penggunaan pribadi/DIY dan non-komersial atas komponen proprietary ATC sesuai dokumentasi resmi.
+
+Kepemilikan software, firmware, merek, desain, atau source code tidak berpindah kepada pengguna.
+
+---
+
+## 3. MODEL LISENSI PERANGKAT
+
+ATC dapat menggunakan identitas unik MCU/perangkat untuk menentukan status lisensi.
+
+### LOCKED / NONE
+
+Perangkat tidak memiliki lisensi Trial atau Full yang valid.
+
+Fitur tertentu, termasuk output motor atau Force Feedback, dapat dinonaktifkan.
+
+### TRIAL
+
+Trial merupakan lisensi evaluasi sementara.
+
+- masa Trial: 7 hari
+- Trial terikat pada perangkat
+- Trial dapat membutuhkan koneksi ke server ATC
+- Trial tidak dimaksudkan untuk diulang dengan reinstall aplikasi, reflash firmware, atau penggantian file lokal
+
+### FULL
+
+Full License merupakan lisensi perangkat untuk fitur pengguna ATC.
+
+- lisensi terikat pada identitas MCU/perangkat
+- lisensi tidak otomatis berlaku pada MCU lain
+- setelah aktivasi permanen berhasil, firmware dapat mendukung penggunaan offline sesuai implementasi produk
+- pemindahan lisensi hanya dapat dilakukan apabila secara tertulis diizinkan oleh pengembang ATC
+
+---
+
+## 4. LARANGAN PADA KOMPONEN PROPRIETARY ATC
+
+Sejauh diizinkan oleh hukum yang berlaku, pengguna tidak diperbolehkan untuk:
+
+- menjual, menyewakan, atau mensublisensikan komponen proprietary ATC tanpa izin
+- mendistribusikan ulang aplikasi atau firmware proprietary ATC tanpa izin
+- membuat atau menyebarkan versi modifikasi yang menggunakan nama ATC seolah-olah merupakan release resmi
+- membagikan license file, activation token, private key, signing material, atau tool aktivasi internal
+- membypass, menonaktifkan, memalsukan, atau mengakali mekanisme lisensi ATC
+- memalsukan identitas MCU/perangkat untuk memperoleh lisensi yang tidak sah
+- melakukan reverse engineering, dekompilasi, atau pembongkaran terhadap komponen proprietary ATC untuk tujuan melanggar lisensi ini
+
+Larangan di atas **tidak berlaku sejauh tindakan tersebut secara tegas diperbolehkan oleh hukum yang tidak dapat dikesampingkan atau oleh lisensi open-source yang berlaku pada suatu komponen**.
+
+---
+
+## 5. REDISTRIBUSI
+
+Komponen proprietary ATC tidak boleh diunggah ulang, dimirror, dibundel ulang, atau didistribusikan kepada pihak lain tanpa izin tertulis.
+
+Pengguna harus memperoleh release proprietary ATC dari sumber resmi.
+
+Ketentuan ini tidak berlaku pada komponen open-source apabila lisensi komponen tersebut memberikan hak redistribusi.
+
+---
+
+## 6. PENGGUNAAN KOMERSIAL
+
+Lisensi personal ATC tidak memberikan hak untuk menggunakan komponen proprietary ATC dalam produk yang dijual, wheelbase komersial, kit DIY berbayar, jasa penyewaan, jasa simulator komersial, produk OEM, integrasi produk pihak ketiga, atau bundling berbayar.
+
+Penggunaan tersebut memerlukan perjanjian atau lisensi komersial terpisah.
+
+---
+
+## 7. LISENSI DAN AKTIVASI
+
+Pengguna memahami bahwa:
+
+- lisensi dapat terikat pada hardware tertentu
+- aktivasi Trial dapat membutuhkan server
+- layanan server dapat mengalami maintenance atau gangguan
+- perubahan hardware tertentu dapat menyebabkan identitas perangkat berubah
+- Full License yang dibuat untuk satu MCU tidak dimaksudkan untuk digunakan pada MCU lain
+
+Upaya untuk memperoleh akses Full tanpa lisensi yang sah merupakan pelanggaran terhadap EULA ini dan dapat melanggar hukum yang berlaku.
+
+---
+
+## 8. BETA, UPDATE, DAN KOMPATIBILITAS
+
+ATC dapat didistribusikan sebagai software atau firmware BETA.
+
+Pada versi BETA, fitur, konfigurasi, kompatibilitas, dan protokol dapat berubah. Bug dapat terjadi, dan firmware serta GUI tertentu mungkin harus menggunakan versi yang saling cocok.
+
+Pengembang tidak berkewajiban mempertahankan kompatibilitas dengan semua versi beta sebelumnya.
+
+---
+
+## 9. KOMPONEN OPEN-SOURCE DAN PIHAK KETIGA
+
+ATC menggunakan komponen pihak ketiga yang memiliki lisensi masing-masing.
+
+### OpenFFBoard
+
+Bagian yang berasal dari OpenFFBoard tunduk pada **MIT License** serta pemberitahuan hak cipta yang berlaku.
+
+### EFeru hoverboard-firmware-hack-FOC
+
+Firmware F103/GD32 yang merupakan karya turunan dari EFeru hoverboard-firmware-hack-FOC tunduk pada **GNU General Public License v3.0 atau versi yang lebih baru**.
+
+Untuk komponen GPL:
+
+- hak untuk menggunakan, mempelajari, memodifikasi, dan mendistribusikan kembali mengikuti GPL
+- source code yang sesuai harus tersedia sebagaimana diwajibkan GPL ketika binary didistribusikan
+- pembatasan proprietary dalam EULA ini tidak dimaksudkan untuk menambah pembatasan terhadap hak yang diberikan GPL
+
+Apabila terdapat konflik antara EULA ATC dan lisensi open-source suatu komponen, lisensi open-source tersebut berlaku untuk komponen yang bersangkutan.
+
+---
+
+## 10. HAK KEKAYAAN INTELEKTUAL
+
+Pengembang ATC mempertahankan seluruh hak atas komponen proprietary ATC yang merupakan karya asli pengembang.
+
+Tidak ada bagian dari EULA ini yang mengklaim kepemilikan atas OpenFFBoard, EFeru hoverboard-firmware-hack-FOC, Qt/PySide, library pihak ketiga, atau karya lain milik pemegang hak masing-masing.
+
+---
+
+## 11. PENGHENTIAN LISENSI
+
+Hak penggunaan komponen proprietary ATC dapat berakhir apabila pengguna melanggar ketentuan EULA ini.
+
+Setelah penghentian, pengguna harus berhenti menggunakan komponen proprietary ATC yang hak penggunaannya telah berakhir.
+
+Ketentuan ini tidak menghapus hak yang secara independen diberikan kepada pengguna oleh lisensi open-source untuk komponen yang tercakup oleh lisensi tersebut.
+
+---
+
+## 12. TANPA JAMINAN
+
+Komponen ATC disediakan **"APA ADANYA" (AS IS)** sejauh diizinkan oleh hukum yang berlaku.
+
+Tidak ada jaminan bahwa software bebas dari bug, firmware cocok untuk semua hardware, motor akan aman pada semua konfigurasi, layanan online selalu tersedia, atau perangkat memenuhi kebutuhan tertentu pengguna.
+
+---
+
+## 13. PEMBATASAN TANGGUNG JAWAB
+
+Direct Drive Force Feedback merupakan sistem elektromekanis yang dapat menghasilkan gaya besar.
+
+Pengguna bertanggung jawab untuk memilih hardware yang sesuai, melakukan wiring dengan benar, memasang proteksi listrik, memastikan struktur mekanik aman, menentukan batas torque yang aman, dan melakukan pengujian sebelum penggunaan normal.
+
+Sejauh diizinkan oleh hukum yang berlaku, pengembang ATC tidak bertanggung jawab atas kerusakan motor, driver, MCU, komputer/perangkat USB, kehilangan data, kehilangan pendapatan, kerusakan tidak langsung, atau cedera akibat instalasi atau penggunaan yang tidak aman.
+
+---
+
+## 14. PERUBAHAN EULA
+
+Pengembang dapat memperbarui EULA untuk release ATC berikutnya.
+
+Versi EULA yang disertakan bersama suatu release berlaku terhadap penggunaan release tersebut, kecuali hukum yang berlaku menentukan lain.
+
+---
+
+## 15. PERSETUJUAN
+
+Dengan mengunduh, memasang, mengaktifkan, atau menggunakan komponen proprietary ATC, pengguna menyatakan telah membaca, memahami, dan menyetujui EULA ini.
+
+Jika pengguna tidak menyetujui ketentuan EULA, pengguna tidak boleh menggunakan komponen proprietary ATC.
+
+Hak atas komponen open-source tetap mengikuti lisensi masing-masing.
