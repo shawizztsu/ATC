@@ -309,8 +309,6 @@ Commercial use termasuk misalnya:
 
 Commercial use membutuhkan izin atau license terpisah.
 
-**Commercial contact:** `[ISI KONTAK RESMI ATC]`
-
 ---
 
 ## Community
